@@ -7,7 +7,10 @@ const App = () => {
   return (
     <>
       <img className={styles.bg} src={bgImage} />
-      <div className={styles.window}></div>
+      <div className={styles.window}>
+        <div className={styles.title}>Tech News</div>
+        <div>Content</div>
+      </div>
     </>
   );
 };

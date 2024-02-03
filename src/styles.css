@@ -5,4 +5,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  font-family: "SF Pro Display", "SF Pro Icons", "Apple WebExp Icons Custom",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
