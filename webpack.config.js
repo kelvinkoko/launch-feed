@@ -67,7 +67,8 @@ const config = {
         '<!DOCTYPE html><html><head><meta charset="utf-8"><title>' +
         htmlWebpackPlugin.options.title +
         '</title></head><body><div id="app"></div></body></html>',
-      filename: "index.html"
+      filename: "index.html",
+      title: "Launch Feed - Keep up to date with tech news everyday"
     }),
     new webpack.ContextReplacementPlugin(/moment[\/\\]locale$/, /en/)
   ],
