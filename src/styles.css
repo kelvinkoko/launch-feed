@@ -1,0 +1,8 @@
+body {
+  margin: 0; /* Remove default margin */
+  overflow: hidden; /* Hide scrollbars */
+  height: 100vh; /* Set the height of the body to 100% of the viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
