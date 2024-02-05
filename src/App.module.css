@@ -28,6 +28,19 @@
   padding: 22px 28px;
 }
 
+.windowContent {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.mainNewsContent {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
 .title {
   font-style: normal;
   font-weight: 600;
@@ -35,6 +48,14 @@
   padding-left: 10px;
   padding-bottom: 20px;
   color: rgba(255, 254, 254, 0.82);
+}
+
+.divider {
+  width: 1px;
+  height: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgba(255, 255, 255, 0.38);
 }
 
 @keyframes fadeInPopOut {

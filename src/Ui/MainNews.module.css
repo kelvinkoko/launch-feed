@@ -1,7 +1,6 @@
 .container {
   position: relative;
-  width: 70%;
-  height: 100%;
+  flex-grow: 1;
   border-radius: 20px;
 }
 

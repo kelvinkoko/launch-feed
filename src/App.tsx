@@ -23,8 +23,13 @@ const App = () => {
       <img className={styles.bg} src={bgImage} />
       <div className={styles.window}>
         <div className={styles.title}>Tech News</div>
-        <MainNews item={item} />
-        <NewsInfo item={item} />
+        <div className={styles.windowContent}>
+          <div className={styles.mainNewsContent}>
+            <MainNews item={item} />
+            <NewsInfo item={item} />
+          </div>
+          <div className={styles.divider} />
+        </div>
       </div>
     </>
   );
