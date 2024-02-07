@@ -33,6 +33,7 @@
   flex-direction: row;
   width: 100%;
   flex-grow: 1;
+  overflow: auto;
 }
 
 .mainNewsContent {
@@ -56,6 +57,13 @@
   margin-left: 20px;
   margin-right: 20px;
   background-color: rgba(255, 255, 255, 0.38);
+}
+
+.previewList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: scroll;
 }
 
 @keyframes fadeInPopOut {

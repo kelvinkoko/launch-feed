@@ -7,6 +7,7 @@ import styles from "./App.module.css";
 import bgImage from "./Image/default-bg.jpg";
 import MainNews from "./Ui/MainNews";
 import NewsInfo from "./Ui/NewsInfo";
+import NewsPreview from "./Ui/NewsPreview";
 
 const App = () => {
   const item = {
@@ -29,6 +30,13 @@ const App = () => {
             <NewsInfo item={item} />
           </div>
           <div className={styles.divider} />
+          <div className={styles.previewList}>
+            <NewsPreview item={item} />
+            <NewsPreview item={item} />
+            <NewsPreview item={item} />
+            <NewsPreview item={item} />
+            <NewsPreview item={item} />
+          </div>
         </div>
       </div>
     </>
