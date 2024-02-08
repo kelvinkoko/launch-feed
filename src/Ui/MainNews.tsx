@@ -1,4 +1,5 @@
 import * as React from "react";
+import MultiClamp from "react-multi-clamp";
 import { NewsItem } from "../DataModel/NewsItem";
 import styles from "./MainNews.module.css";
 
@@ -11,7 +12,9 @@ const MainNews = ({ item }: Props) => {
     <div className={styles.container}>
       <img className={styles.thumbnail} src={item.thumbnailUrl} />
       <div className={styles.overlay} />
-      <div className={styles.title}>{item.title}</div>
+      <MultiClamp className={styles.title} ellipsis="..." clamp={2}>
+        {item.title}
+      </MultiClamp>
     </div>
   );
 };

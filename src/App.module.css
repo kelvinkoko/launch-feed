@@ -10,7 +10,8 @@
 .window {
   width: 80vw;
   height: 60vh;
-  max-width: 800px;
+  max-width: 900px;
+  max-height: 400px;
 
   background: rgba(151, 151, 151, 0.54);
   border: 1px solid rgba(255, 255, 255, 0.41);
@@ -64,7 +65,7 @@
   flex-direction: column;
   gap: 20px;
   overflow: scroll;
-  width: 30%;
+  width: 35%;
   min-width: 250px;
 }
 

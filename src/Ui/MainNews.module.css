@@ -37,8 +37,5 @@
   line-height: 24px;
   color: rgba(227, 227, 227, 0.9);
 
-  overflow: hidden;
-  text-overflow: ellipsis;
   box-sizing: border-box;
-  white-space: nowrap;
 }

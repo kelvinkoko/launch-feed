@@ -2809,6 +2809,11 @@ ms@2.1.3:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
 
+multi-clamp@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/multi-clamp/-/multi-clamp-2.0.2.tgz#fa77efb0100aa387855f90dd245ec26316fdede8"
+  integrity sha512-zhI0kP3VqZ2rACPWGxWV/G5s6z7qYWyh7Ow6QdPVzZ8N3fuNT4HZ25e9KIqUCROB++ppcn3/EUy7IYQ9UC1N+w==
+
 multicast-dns@^7.2.5:
   version "7.2.5"
   resolved "https://registry.yarnpkg.com/multicast-dns/-/multicast-dns-7.2.5.tgz#77eb46057f4d7adbd16d9290fa7299f6fa64cced"
@@ -3103,7 +3108,7 @@ process@^0.11.10:
   resolved "https://registry.yarnpkg.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
   integrity sha512-cdGef/drWFoydD1JsMzuFf8100nZl+GT+yacc2bEced5f9Rjk4z+WtFUTBu9PhOi9j/jfmBPu0mMEY4wIdAF8A==
 
-prop-types@^15.6.1:
+prop-types@^15.6.1, prop-types@^15.7.2:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -3185,6 +3190,14 @@ react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
+
+react-multi-clamp@^2.0.6:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/react-multi-clamp/-/react-multi-clamp-2.0.6.tgz#8cd378ec12c42b5712b03143d4a7960819cdd44b"
+  integrity sha512-sCPGBq5zUJCgwWV/3pJBGs/Y8UMtNb6fpyw56YEfwwJIOhJbv+rHam+JeMDzyBghWbbKZ8n1B5MPKb7tsy8vPA==
+  dependencies:
+    multi-clamp "^2.0.2"
+    prop-types "^15.7.2"
 
 react@^18.2.0:
   version "18.2.0"
