@@ -19,7 +19,7 @@
   width: 100%;
   height: 100%;
   background: linear-gradient(
-    23.27deg,
+    13deg,
     rgba(0, 0, 0, 0.37) 39.06%,
     rgba(217, 217, 217, 0) 79.42%
   );
@@ -39,4 +39,8 @@
   color: rgba(227, 227, 227, 0.9);
 
   box-sizing: border-box;
+}
+
+.container:hover .title {
+  color: rgba(237, 237, 237, 1);
 }

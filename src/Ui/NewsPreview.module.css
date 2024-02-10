@@ -22,12 +22,21 @@
   object-fit: cover;
   object-position: center center;
   border-radius: 8px;
+  opacity: 0.8;
+}
+
+.container:hover .thumbnail {
+  opacity: 1;
 }
 
 .title {
   font-weight: 400;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.7);
+}
+
+.container:hover .title {
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .time {
