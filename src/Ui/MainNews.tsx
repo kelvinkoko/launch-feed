@@ -12,7 +12,10 @@ interface Props {
 const MainNews = ({ item }: Props) => {
   const isReady = !isPlaceholder(item);
   return (
-    <div className={styles.container}>
+    <div
+      className={styles.container}
+      onClick={() => window.open(item.detailsUrl, "_blank")}
+    >
       <ReactPlaceholder
         className={styles.thumbnail}
         showLoadingAnimation

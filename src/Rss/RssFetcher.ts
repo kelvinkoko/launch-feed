@@ -27,6 +27,7 @@ export async function fetchRss(
       );
       return {
         title: item.title,
+        detailsUrl: item.link,
         thumbnailUrl: imageUrl,
         time: moment(item.pubDate, "ddd, DD MMM YYYY HH:mm:ss ZZ").fromNow(),
         source: feed.title,

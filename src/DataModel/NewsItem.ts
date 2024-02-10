@@ -1,5 +1,6 @@
 export interface NewsItem {
   title: string;
+  detailsUrl: string;
   thumbnailUrl?: string;
   time: string;
   source: string;
@@ -8,6 +9,7 @@ export interface NewsItem {
 
 export const PLACEHOLDER: NewsItem = {
   title: "",
+  detailsUrl: "",
   source: "",
   sourceLogoUrl: "",
   time: ""

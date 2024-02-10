@@ -2,6 +2,7 @@
   position: relative;
   flex-grow: 1;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .thumbnail {

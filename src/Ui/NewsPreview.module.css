@@ -4,6 +4,7 @@
   position: relative;
   gap: 10px;
   height: 100px;
+  cursor: pointer;
 }
 
 .textPreviewContainer {
