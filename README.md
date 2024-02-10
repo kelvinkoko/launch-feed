@@ -1,4 +1,4 @@
-# Launch Feed
+# 📰 Launch Feed
 
 Keep up to date with the industry news
 
@@ -20,4 +20,4 @@ yarn start
 
 Project creation: [createapp.dev](https://createapp.dev/)
 
-Photo by Spacejoy on Unsplash
+Photo by Kenny Eliason on Unsplash
