@@ -1,7 +1,7 @@
 import * as React from "react";
 import { hot } from "react-hot-loader/root";
 import styles from "./App.module.css";
-import { NewsItem } from "./DataModel/NewsItem";
+import { NewsItem, PLACEHOLDER } from "./DataModel/NewsItem";
 import bgImage from "./Image/default-bg.jpg";
 import { fetchRss } from "./Rss/RssFetcher";
 import MainNews from "./Ui/MainNews";
@@ -9,16 +9,12 @@ import NewsInfo from "./Ui/NewsInfo";
 import NewsPreview from "./Ui/NewsPreview";
 
 const App = () => {
-  const item = {
-    title: "Apple Vision Pro review: the infinite desktop",
-    thumbnailUrl:
-      "https://techcrunch.com/wp-content/uploads/2024/02/DSC00065.jpeg?w=1390&crop=1",
-    source: "Techcrunch",
-    sourceLogoUrl:
-      "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=32",
-    time: "2 hours ago"
-  };
-  const [items, setItems] = React.useState<NewsItem[]>([item]);
+  const [items, setItems] = React.useState<NewsItem[]>([
+    PLACEHOLDER,
+    PLACEHOLDER,
+    PLACEHOLDER,
+    PLACEHOLDER
+  ]);
   let [mainItem, ...previewItems] = items;
 
   React.useEffect(() => {

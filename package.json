@@ -19,6 +19,7 @@
     "react-dom": "^18.2.0",
     "react-hot-loader": "^4.13.1",
     "react-multi-clamp": "^2.0.6",
+    "react-placeholder": "^4.1.0",
     "rss-parser": "^3.13.0"
   },
   "devDependencies": {

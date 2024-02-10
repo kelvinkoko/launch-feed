@@ -12,10 +12,12 @@
   justify-content: space-between;
   padding-top: 4px;
   padding-bottom: 6px;
+  flex-grow: 1;
 }
 
 .thumbnail {
   width: 145px;
+  height: 100px;
   object-fit: cover;
   object-position: center center;
   border-radius: 8px;
