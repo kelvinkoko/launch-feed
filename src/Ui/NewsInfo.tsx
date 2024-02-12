@@ -21,7 +21,9 @@ const NewsInfo = ({ item }: Props) => {
         color="#b9bab8"
         style={{ width: 120 }}
       >
-        <img className={styles.logo} src={item.sourceLogoUrl} />
+        {item.sourceLogoUrl ? (
+          <img className={styles.logo} src={item.sourceLogoUrl} />
+        ) : null}
         <div>
           <div className={styles.sourceName}>{item.source}</div>
           <div className={styles.time}>{item.time}</div>

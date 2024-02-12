@@ -25,13 +25,14 @@ export async function fetchRss(
       const imageUrl = await extractRepresentativeImage(
         `${CORS_PROXY}${item.link}`
       );
+      const sourceLogoUrl = feed.image ? feed.image.url : undefined;
       return {
         title: item.title,
         detailsUrl: item.link,
         thumbnailUrl: imageUrl,
-        time: moment(item.pubDate, "ddd, DD MMM YYYY HH:mm:ss ZZ").fromNow(),
+        time: moment(item.pubDate).fromNow(),
         source: feed.title,
-        sourceLogoUrl: feed.image.url
+        sourceLogoUrl: sourceLogoUrl
       };
     })
   );

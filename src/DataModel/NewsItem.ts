@@ -4,7 +4,7 @@ export interface NewsItem {
   thumbnailUrl?: string;
   time: string;
   source: string;
-  sourceLogoUrl: string;
+  sourceLogoUrl?: string;
 }
 
 export const PLACEHOLDER: NewsItem = {

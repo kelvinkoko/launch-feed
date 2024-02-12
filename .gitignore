@@ -15,4 +15,5 @@ ehthumbs.db
 Thumbs.db
 
 .firebaserc
+.firebase/
 firebase.json

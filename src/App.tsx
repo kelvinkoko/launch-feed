@@ -15,11 +15,12 @@ const App = () => {
     PLACEHOLDER,
     PLACEHOLDER
   ]);
-  let [mainItem, ...previewItems] = items;
+  const [mainItem, ...previewItems] = items;
 
   React.useEffect(() => {
     (async () => {
-      setItems(await fetchRss("https://techcrunch.com/feed/", 5));
+      setItems(await fetchRss("https://theverge.com/rss/frontpage", 5));
+      // setItems(await fetchRss("https://techcrunch.com/feed/", 5));
     })();
   }, []);
   return (
