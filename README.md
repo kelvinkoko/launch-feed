@@ -10,6 +10,7 @@ Keep up to date with the industry news
 
 - Implement RSS fetchers to get news from tech sites
 - Using "glassmorphism" style to have a taste of Vision Pro like UI with css
+- Client side only implementation, used CORS Proxy for the cross origin issue whening fetching rss 
 
 ## Building and running on localhost
 
